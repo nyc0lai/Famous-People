@@ -36,10 +36,14 @@ body {
 }
 #quote {
   /*border: 2px solid red;*/
+  padding-top: 50px;
   text-align: center;
   color: brown;
   font-style: italic;
   font-size: 22px;
+  margin: auto;
+  width: 70%;
+  height: 70px;
 }
 
 #bt01 {
@@ -56,4 +60,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#div-btn {
+  margin: auto;
+  padding-bottom: 10px;
 }
