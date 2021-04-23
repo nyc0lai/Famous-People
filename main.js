@@ -16,9 +16,9 @@ new Quote("Proverb italian", "Daca tot a luat foc casa, cel putin sa ne incalzim
 ];
 
 function getQuotes() {
-    Math.floor(Math.random()*Quotes.length)
-document.getElementById("").innerHTML = 
+let x = Math.floor(Math.random()*Quotes.length);
+document.getElementById("author").innerHTML = Quotes[x].author;
+document.getElementById("quote").innerHTML = Quotes[x].quote;
 };
-console.log(Quotess);
 
 
